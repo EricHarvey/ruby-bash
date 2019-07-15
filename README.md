@@ -17,7 +17,8 @@ bundle install
 ```
 
 ## Usage
+
+### Release notes generator
 ```bash
-# release notes
 rb release-notes <diff_url>
 ```
