@@ -1,3 +1,5 @@
+## Install
+
 Add this to your bash profile:
 
 ```bash
@@ -8,4 +10,14 @@ function rb() {
 
 alias branches='rb git'
 alias br='rb git 10'
+```
+
+```bash
+bundle install
+```
+
+## Usage
+```bash
+# release notes
+rb release-notes <diff_url>
 ```
