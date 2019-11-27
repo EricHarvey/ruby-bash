@@ -19,6 +19,12 @@ bundle install
 ## Usage
 
 ### Release notes generator
+#### Prerequisites
+- make sure you're on the `master` branch of the repo you're generating release notes for
+- make sure you're up to date (e.g. `git pull`)
+
+
+#### Command
 ```bash
 rb release-notes <diff_url>
 ```
